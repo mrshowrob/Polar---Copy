@@ -1,0 +1,37 @@
+.hero_section_aria {
+    padding: 150px 0;
+    overflow: hidden;
+    .content{
+       .sub_title {
+            margin-bottom: 5px;
+            display: inline-block;
+       }
+       h1 {
+           color: $text_color;
+           margin-bottom: 25px;
+       }
+       p {
+           color: $text_color;
+           font-size: 18px;
+           font-weight: 400;
+           line-height: 27px;
+           font-family: 'Hind Madurai', sans-serif;
+           margin-bottom: 50px;
+       }
+    }
+    .fixed_image {
+        .mover_sec {
+            top: 100px;
+            .layer_1 {
+                left: -90px;
+                top: -210px;
+                max-width: 535px;
+            }
+            .layer_2 {
+                left: -215px;
+                top: -65px;
+                max-width: 750px;
+            }
+        }
+    }
+}

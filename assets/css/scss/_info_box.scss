@@ -1,0 +1,25 @@
+.info_box_aria
+
+.info_box_item {
+    background: $white;
+    padding: 28px 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    margin: 0 5px;
+    img {
+        margin-bottom: 20px;
+    }
+    h6 {
+        color: $black;
+    }
+    p {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 14px;
+        line-height: 19px;
+        color: $black;
+    }
+    &:hover {
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+    }
+}
